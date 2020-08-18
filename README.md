@@ -64,9 +64,11 @@ Invalid input. The correct answer was: ²⁷/₅₆
 # Maths
 The greatest common divisor (gcd) of two or more integers, which are not all zero, is the largest positive integer that divides each of the integers. You can compute the gcd of two integers using the following code. We have provided it to you in rational.py:
  
-```def gcd(a, b):
+```
+def gcd(a, b):
   while b:
     a, b = b, a % b
-  return a ```
+  return a
+  ```
 # Be ready for anything
 We'll be swapping out program.py during marking so that we can push your Rational class to the limits and test cases you might not have thought of (but not zero denominators).
